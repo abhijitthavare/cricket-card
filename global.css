@@ -1,0 +1,33 @@
+*{
+    background-color:cadetblue;
+}
+.mainBlock{
+    border: 5px solid red;
+    width: 600px;
+    height: 700 px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+
+}
+img{
+    width: 400px;
+    height: 700px;
+}
+.parentBlock{
+    display:flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+img:hover{
+    width: 450px;
+    height: 750px;
+    transition: all 2s;
+}
+.a{
+     text-align: center;
+     font-size: 100px;
+     motion-rotation: auto;
+}
